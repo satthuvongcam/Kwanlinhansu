@@ -15,7 +15,7 @@
   <ItemGroup>
     <Folder Include="Authentication\" />
     <Folder Include="Admin__phongban\" />
-    <Folder Include="User\" />
+    <Folder Include="User__things\" />
   </ItemGroup>
 
 </Project>
