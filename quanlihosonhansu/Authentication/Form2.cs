@@ -19,6 +19,7 @@ namespace quanlihosonhansu.Authentication
             Console.Write("suck");
             Console.Write("at");
             Console.Write("codin");
+            Console.Write("codin");
         }
     }
 }
