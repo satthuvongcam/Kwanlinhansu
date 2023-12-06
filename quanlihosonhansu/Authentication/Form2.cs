@@ -24,6 +24,7 @@ namespace quanlihosonhansu.Authentication
             Console.Write("codin");
             Console.Write("codin");
             Console.Write("codin");
+            Console.Write("codin");
         }
     }
 }
