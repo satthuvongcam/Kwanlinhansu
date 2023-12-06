@@ -24,3 +24,4 @@ C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-w
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__duan.Form2333.resources
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__hosonhansu.form444.resources
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.CopyComplete
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.Form2.resources
