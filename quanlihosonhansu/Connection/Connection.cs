@@ -13,7 +13,7 @@ namespace quanlihosonhansu.Connection
         stringConnection = @"Data Source=pc;Initial Catalog=qlinhansu;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
-            return new SqlConnection(stringConnection);
+            return new SqlConnection(stringConnection); 
         }
         
     }
