@@ -1,3 +1,5 @@
+using quanlihosonhansu.User__things;
+
 namespace quanlihosonhansu
 {
     internal static class Program

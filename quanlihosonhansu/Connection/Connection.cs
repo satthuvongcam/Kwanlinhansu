@@ -10,10 +10,11 @@ namespace quanlihosonhansu.Connection
     internal class Connection
     {
         private static string 
-        stringConnection = @"Data Source=pc;Initial Catalog=finaldemo_upd1;Integrated Security=True";
+        stringConnection = @"Data Source=pc;Initial Catalog=qlinhansu;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(stringConnection);
         }
+        
     }
 }
