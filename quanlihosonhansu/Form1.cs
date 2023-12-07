@@ -15,9 +15,6 @@ namespace quanlihosonhansu
 
         private void label1_Click(object sender, EventArgs e)
         {
-            Form2333 frm = new Form2333();
-            this.Hide();
-            frm.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

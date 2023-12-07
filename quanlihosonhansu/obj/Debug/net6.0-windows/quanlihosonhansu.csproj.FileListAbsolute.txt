@@ -21,8 +21,10 @@ C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-w
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__duan.Form2333.resources
-C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__hosonhansu.form444.resources
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.CopyComplete
-C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.Form2.resources
-C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.abc.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__duan.duan.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__hosonhansu.hosonhansu.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__phongban.phongban.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.dangky.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.dangnhap.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.UserForm.resources
