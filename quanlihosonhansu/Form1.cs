@@ -1,6 +1,7 @@
 using quanlihosonhansu.Admin__duan;
 using quanlihosonhansu.Connection;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace quanlihosonhansu
 {
@@ -17,6 +18,11 @@ namespace quanlihosonhansu
             Form2333 frm = new Form2333();
             this.Hide();
             frm.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            Debug.WriteLine("text changed");
         }
     }
 }
