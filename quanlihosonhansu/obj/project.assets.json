@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ndchi\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndchi\\source\\repos\\quanlihosonhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
+      "projectUniqueName": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
       "projectName": "quanlihosonhansu",
-      "projectPath": "C:\\Users\\ndchi\\source\\repos\\quanlihosonhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
-      "packagesPath": "C:\\Users\\ndchi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndchi\\source\\repos\\quanlihosonhansu\\quanlihosonhansu\\obj\\",
+      "projectPath": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ndchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -532,7 +532,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -19,6 +19,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmQLDuAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQLKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="User__things\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>

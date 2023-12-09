@@ -9,8 +9,7 @@ namespace quanlihosonhansu.Connection
 {
     internal class Connection
     {
-        private static string 
-        stringConnection = @"Data Source=pc;Initial Catalog=qlinhansu;Integrated Security=True";
+        private static string stringConnection = @"Data Source=MSI;Initial Catalog=QLNhanSu;Integrated Security=True;";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(stringConnection); 
