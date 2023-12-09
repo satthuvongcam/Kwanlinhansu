@@ -14,4 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = quanlihosonhansu
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\
+=======
+build_property.ProjectDir = D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+>>>>>>> ec84e2265a742a364e8f0f37ac516935dfe3b733
