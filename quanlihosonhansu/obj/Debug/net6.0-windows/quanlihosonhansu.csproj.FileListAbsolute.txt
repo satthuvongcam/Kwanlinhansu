@@ -4,7 +4,6 @@ C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-w
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-windows\quanlihosonhansu.dll
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\bin\Debug\net6.0-windows\quanlihosonhansu.pdb
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.AssemblyReference.cache
-C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Form1.resources
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.GenerateResource.cache
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.AssemblyInfoInputs.cache
