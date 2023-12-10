@@ -94,3 +94,5 @@ D:\Clone\quanlihosonhansu\obj\Debug\net6.0-windows\refint\quanlihosonhansu.dll
 D:\Clone\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.pdb
 D:\Clone\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.genruntimeconfig.cache
 D:\Clone\quanlihosonhansu\obj\Debug\net6.0-windows\ref\quanlihosonhansu.dll
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Properties.Resources.resources
+C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.DoiMatKhau.resources
