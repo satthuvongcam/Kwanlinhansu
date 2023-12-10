@@ -19,6 +19,9 @@
     <Compile Update="Authentication\dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="User__things\DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="User__things\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
