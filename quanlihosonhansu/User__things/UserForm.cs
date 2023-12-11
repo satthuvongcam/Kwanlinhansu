@@ -18,12 +18,13 @@ namespace quanlihosonhansu.User__things
 {
     public partial class UserForm : Form
     {
+        public int loginID { get; set; }
         // biến dạng cho trạng thái đầu tiên (nút reset sẽ reset về các biến này)
         string originalEmail = "";
         string originalSDT = "";
         string originalDiaChi = "";
         // login ID, khi nào có form login tính tiếp
-        int currentID = 1;
+        //int currentID = 1;
         public UserForm()
         {
             InitializeComponent();
@@ -224,7 +225,7 @@ namespace quanlihosonhansu.User__things
         private void doiMatKhauStripMenuItem_Click(object sender, EventArgs e)
         {
             DoiMatKhau doiMatKhau = new DoiMatKhau();
-            doiMatKhau.loginID = currentID;
+            doiMatKhau.loginID = loginID;
             doiMatKhau.Show();
         }
 
@@ -232,7 +233,7 @@ namespace quanlihosonhansu.User__things
         private void lấyThôngTinNgườiĐầuTiênToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtBoxEventDetach();
-            InitializeData(currentID);
+            InitializeData(loginID);
             txtBoxEventRetach();
         }
 
@@ -306,7 +307,7 @@ namespace quanlihosonhansu.User__things
                         command.Parameters.AddWithValue("@emailTextBox", emailTextBox.Text);
                         command.Parameters.AddWithValue("@sdtTextBox", soDienThoaiTextBox.Text);
                         command.Parameters.AddWithValue("@diaChiTextBox", diaChiTextBox.Text);
-                        command.Parameters.AddWithValue("@ID", currentID);
+                        command.Parameters.AddWithValue("@ID", loginID);
 
                         command.ExecuteNonQuery();
                     }
