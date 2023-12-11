@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,15 @@ namespace quanlihosonhansu.User__things
         {
             InitializeComponent();
         }
+        // nhảy code của thằng linh 
+        private string HashPassword(string password)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
+            }
+        }
         // kiểm tra xem control.text hiện tại có giống với database không
         private bool CheckOldPassword(Control control)
         {
@@ -29,7 +39,8 @@ namespace quanlihosonhansu.User__things
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@controlTxt", control.Text);
+                    // chỉnh lại để so được với pass đã mã hóa trong database
+                    command.Parameters.AddWithValue("@controlTxt", HashPassword(control.Text));
 
                     int count = (int)command.ExecuteScalar();
 
@@ -40,6 +51,7 @@ namespace quanlihosonhansu.User__things
         // 1 đống field validation trước khi load vào database
         private void doiMatKhauButton_Click(object sender, EventArgs e)
         {
+            string password = matKhauMoiTextBox.Text;
             if (string.IsNullOrWhiteSpace(matKhauCuTextBox.Text))
             {
                 MessageBox.Show("Vui lòng nhập mật khẩu cũ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -88,11 +100,12 @@ namespace quanlihosonhansu.User__things
                 {
                     connection.Open();
 
-                    string query = "UPDATE nhanvien SET password = @password WHERE ID = @ID";
+                    string hashedPassword = HashPassword(password);
+                    string query = $"UPDATE nhanvien SET password = @password WHERE ID = @ID";
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@password", matKhauMoiTextBox.Text);
+                        command.Parameters.AddWithValue("@password", hashedPassword);
                         command.Parameters.AddWithValue("@ID", loginID);
 
                         command.ExecuteNonQuery();
