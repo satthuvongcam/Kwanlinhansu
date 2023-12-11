@@ -35,7 +35,7 @@ namespace quanlihosonhansu.Admin__hosonhansu
             assignCombo.assigningComboDB(comboRoom, "phongban", "ten" , "id" );
 
             // Assigning comboboxes with custom value
-            
+
             string[,] genderArr = Datas.getGender();
             string[,] staffArr = Datas.getStaffStatus();
             string[,] statusArr = Datas.getWorkStatus();

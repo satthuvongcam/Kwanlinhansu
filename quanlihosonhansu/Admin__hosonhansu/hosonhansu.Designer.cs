@@ -142,7 +142,7 @@
             // 
             // txtMulti
             // 
-            this.txtMulti.Location = new System.Drawing.Point(378, 191);
+            this.txtMulti.Location = new System.Drawing.Point(378, 222);
             this.txtMulti.Name = "txtMulti";
             this.txtMulti.Size = new System.Drawing.Size(35, 23);
             this.txtMulti.TabIndex = 13;
@@ -150,7 +150,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(292, 194);
+            this.label6.Location = new System.Drawing.Point(292, 225);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 15);
             this.label6.TabIndex = 12;
@@ -158,7 +158,7 @@
             // 
             // txtSalary
             // 
-            this.txtSalary.Location = new System.Drawing.Point(378, 160);
+            this.txtSalary.Location = new System.Drawing.Point(378, 191);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(121, 23);
             this.txtSalary.TabIndex = 11;
@@ -166,7 +166,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(292, 163);
+            this.label7.Location = new System.Drawing.Point(292, 194);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(80, 15);
             this.label7.TabIndex = 10;
@@ -244,7 +244,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(549, 163);
+            this.label11.Location = new System.Drawing.Point(549, 124);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(59, 15);
             this.label11.TabIndex = 22;
@@ -253,7 +253,7 @@
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
-            this.comboStatus.Location = new System.Drawing.Point(641, 160);
+            this.comboStatus.Location = new System.Drawing.Point(641, 121);
             this.comboStatus.Name = "comboStatus";
             this.comboStatus.Size = new System.Drawing.Size(121, 23);
             this.comboStatus.TabIndex = 23;
@@ -261,7 +261,7 @@
             // comboStaff
             // 
             this.comboStaff.FormattingEnabled = true;
-            this.comboStaff.Location = new System.Drawing.Point(378, 122);
+            this.comboStaff.Location = new System.Drawing.Point(378, 121);
             this.comboStaff.Name = "comboStaff";
             this.comboStaff.Size = new System.Drawing.Size(121, 23);
             this.comboStaff.TabIndex = 25;
@@ -269,7 +269,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(292, 125);
+            this.label12.Location = new System.Drawing.Point(292, 124);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(36, 15);
             this.label12.TabIndex = 24;
