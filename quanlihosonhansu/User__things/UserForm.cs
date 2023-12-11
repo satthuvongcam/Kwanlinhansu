@@ -1,4 +1,5 @@
-﻿using quanlihosonhansu.Connection;
+﻿using quanlihosonhansu.Authentication;
+using quanlihosonhansu.Connection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,12 +20,12 @@ namespace quanlihosonhansu.User__things
     public partial class UserForm : Form
     {
         public int loginID { get; set; }
+        //flag check xem là đang đăng xuất hay thoát
+        private bool logoutFlag = false;
         // biến dạng cho trạng thái đầu tiên (nút reset sẽ reset về các biến này)
         string originalEmail = "";
         string originalSDT = "";
         string originalDiaChi = "";
-        // login ID, khi nào có form login tính tiếp
-        //int currentID = 1;
         public UserForm()
         {
             InitializeComponent();
@@ -233,6 +234,7 @@ namespace quanlihosonhansu.User__things
         private void lấyThôngTinNgườiĐầuTiênToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtBoxEventDetach();
+            loginID = 1;
             InitializeData(loginID);
             txtBoxEventRetach();
         }
@@ -379,6 +381,48 @@ namespace quanlihosonhansu.User__things
         {
             Color color = (e.RowIndex % 2 == 0) ? Color.LightGray : Color.White;
             projectDataGridView.Rows[e.RowIndex].DefaultCellStyle.BackColor = color;
+        }
+
+        private void iDNgườiĐăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ID hiện tại " + loginID);
+        }
+
+        //load data từ ID được nhận khi vào form
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+            txtBoxEventDetach();
+            InitializeData(loginID);
+            txtBoxEventRetach();
+        }
+        // đăng xuất
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc muốn đăng xuất không?", "Xác nhận đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                logoutFlag = true;
+                this.Close();
+                dangnhap loginForm = new dangnhap();
+                loginForm.Show();
+            }
+
+        }
+        // đóng form, kiểm tra xem có phải là đăng xuất không, nếu không thì đóng phần mềm
+        private void UserForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (!logoutFlag)
+            {
+                DialogResult result = MessageBox.Show("Bạn có chắc muốn thoát không?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    if (!logoutFlag)
+                    {
+                        Application.Exit();
+                    }
+                }
+            }
         }
     }
 }
