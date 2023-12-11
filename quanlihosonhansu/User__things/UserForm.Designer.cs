@@ -34,9 +34,11 @@
             resetButton = new Button();
             thôngTinCáNhânToolStripMenuItem = new ToolStripMenuItem();
             doiMatKhauStripMenuItem = new ToolStripMenuItem();
+            đăngXuấtToolStripMenuItem = new ToolStripMenuItem();
             stripMenu = new MenuStrip();
             debugToolStripMenuItem = new ToolStripMenuItem();
             lấyThôngTinNgườiĐầuTiênToolStripMenuItem = new ToolStripMenuItem();
+            iDNgườiĐăngNhậpToolStripMenuItem = new ToolStripMenuItem();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
@@ -152,7 +154,7 @@
             // 
             // thôngTinCáNhânToolStripMenuItem
             // 
-            thôngTinCáNhânToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { doiMatKhauStripMenuItem });
+            thôngTinCáNhânToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { doiMatKhauStripMenuItem, đăngXuấtToolStripMenuItem });
             thôngTinCáNhânToolStripMenuItem.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
             thôngTinCáNhânToolStripMenuItem.Padding = new Padding(0, 0, 4, 0);
@@ -162,9 +164,16 @@
             // doiMatKhauStripMenuItem
             // 
             doiMatKhauStripMenuItem.Name = "doiMatKhauStripMenuItem";
-            doiMatKhauStripMenuItem.Size = new Size(146, 22);
+            doiMatKhauStripMenuItem.Size = new Size(180, 22);
             doiMatKhauStripMenuItem.Text = "Đổi mật khẩu";
             doiMatKhauStripMenuItem.Click += doiMatKhauStripMenuItem_Click;
+            // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            đăngXuấtToolStripMenuItem.Size = new Size(180, 22);
+            đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            đăngXuấtToolStripMenuItem.Click += đăngXuấtToolStripMenuItem_Click;
             // 
             // stripMenu
             // 
@@ -178,7 +187,7 @@
             // 
             // debugToolStripMenuItem
             // 
-            debugToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lấyThôngTinNgườiĐầuTiênToolStripMenuItem });
+            debugToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lấyThôngTinNgườiĐầuTiênToolStripMenuItem, iDNgườiĐăngNhậpToolStripMenuItem });
             debugToolStripMenuItem.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point);
             debugToolStripMenuItem.Name = "debugToolStripMenuItem";
             debugToolStripMenuItem.Size = new Size(55, 20);
@@ -190,6 +199,13 @@
             lấyThôngTinNgườiĐầuTiênToolStripMenuItem.Size = new Size(231, 22);
             lấyThôngTinNgườiĐầuTiênToolStripMenuItem.Text = "Lấy thông tin người đầu tiên";
             lấyThôngTinNgườiĐầuTiênToolStripMenuItem.Click += lấyThôngTinNgườiĐầuTiênToolStripMenuItem_Click;
+            // 
+            // iDNgườiĐăngNhậpToolStripMenuItem
+            // 
+            iDNgườiĐăngNhậpToolStripMenuItem.Name = "iDNgườiĐăngNhậpToolStripMenuItem";
+            iDNgườiĐăngNhậpToolStripMenuItem.Size = new Size(231, 22);
+            iDNgườiĐăngNhậpToolStripMenuItem.Text = "ID người đăng nhập";
+            iDNgườiĐăngNhậpToolStripMenuItem.Click += iDNgườiĐăngNhậpToolStripMenuItem_Click;
             // 
             // tableLayoutPanel1
             // 
@@ -722,6 +738,8 @@
             Name = "UserForm";
             Padding = new Padding(15, 0, 15, 0);
             Text = "Thông tin nhân viên";
+            FormClosed += UserForm_FormClosed;
+            Load += UserForm_Load;
             functionFlowPanel.ResumeLayout(false);
             stripMenu.ResumeLayout(false);
             stripMenu.PerformLayout();
@@ -789,6 +807,8 @@
         private TableLayoutPanel tongLuongThucNhanTable;
         private Label tongLuongLabel;
         private Label tongLuongHienThiLabel;
+        private ToolStripMenuItem iDNgườiĐăngNhậpToolStripMenuItem;
+        private ToolStripMenuItem đăngXuấtToolStripMenuItem;
     }
 
 }

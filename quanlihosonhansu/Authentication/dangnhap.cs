@@ -16,6 +16,7 @@ namespace quanlihosonhansu.Authentication
 {
     public partial class dangnhap : Form
     {
+        public int loginID;
         SqlConnection conn = Connection.Connection.GetSqlConnection();
         public dangnhap()
         {
@@ -34,7 +35,8 @@ namespace quanlihosonhansu.Authentication
         private void OpenUserForm()
         {
             UserForm formUser = new UserForm();
-            //formUser.loginID = userId;
+            //LinhDz: ID người hiện tại đang đăng nhập
+            formUser.loginID = loginID;
 
             // Đóng form hiện tại
             this.Hide();
@@ -69,8 +71,9 @@ namespace quanlihosonhansu.Authentication
 
                 if (reader.Read())
                 {
+
                     object isStaffObj = reader["is_staff"];
-                    //int userId = Convert.ToInt32(reader["userId"]);
+                    loginID = Convert.ToInt32(reader["id"]);
 
                     if (isStaffObj != DBNull.Value)
                     {
@@ -83,13 +86,11 @@ namespace quanlihosonhansu.Authentication
                         }
                         else
                         {
-                            // Đăng nhập thành công cho nhân viên
                             OpenUserForm();
                         }
                     }
                     else
                     {
-                        // Đăng nhập thành công cho nhân viên
                         OpenUserForm();
                     }
                 }
