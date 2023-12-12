@@ -94,7 +94,7 @@ namespace quanlihosonhansu
             {
                 if(txtTenKH.Text == "" && txtEmail.Text == "" && txtSDT.Text == "")
                 {
-                    MessageBox.Show("Bạn cần điền đầy đủ tất cả thông tin trước khi thêm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Bạn cần điền đầy đủ tất cả thông tin trước khi thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtTenKH.Focus();
                 }
                 else if (txtTenKH.Text == "")

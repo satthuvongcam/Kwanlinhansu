@@ -99,7 +99,7 @@ namespace quanlihosonhansu
             {
                 if(txtTenDA.Text == "" && txtMoTa.Text == "" && txtKhachHangID.Text == "")
                 {
-                    MessageBox.Show("Bạn cần điền đầy đủ thông tin dự án cần thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Bạn cần điền đầy đủ thông tin dự án trước khi thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtTenDA.Focus();
                 }
                 else if (txtTenDA.Text == "")
