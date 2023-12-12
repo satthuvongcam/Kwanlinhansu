@@ -97,17 +97,24 @@ namespace quanlihosonhansu
             }
             else
             {
-                MessageBox.Show("Bạn cần điền đầy đủ thông tin dự án cần thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (txtTenDA.Text == "")
+                if(txtTenDA.Text == "" && txtMoTa.Text == "" && txtKhachHangID.Text == "")
                 {
+                    MessageBox.Show("Bạn cần điền đầy đủ thông tin dự án cần thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtTenDA.Focus();
+                }
+                else if (txtTenDA.Text == "")
+                {
+                    MessageBox.Show("Bạn không được để trống trường tên dự án", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtTenDA.Focus();
                 }
                 else if (txtMoTa.Text == "")
                 {
+                    MessageBox.Show("Bạn không được để trống trường mô tả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtMoTa.Focus();
                 }
                 else
                 {
+                    MessageBox.Show("Bạn không được để trống trường mã khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtKhachHangID.Focus();
                 }
             }
@@ -145,17 +152,24 @@ namespace quanlihosonhansu
             }
             else
             {
-                MessageBox.Show("Bạn cần chọn dự án cần sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (txtTenDA.Text == "")
+                if (txtTenDA.Text == "" && txtMoTa.Text == "" && txtKhachHangID.Text == "")
                 {
+                    MessageBox.Show("Bạn cần điền đầy đủ thông tin dự án cần thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtTenDA.Focus();
+                }
+                else if (txtTenDA.Text == "")
+                {
+                    MessageBox.Show("Bạn không được để trống trường tên dự án", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtTenDA.Focus();
                 }
                 else if (txtMoTa.Text == "")
                 {
+                    MessageBox.Show("Bạn không được để trống trường mô tả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtMoTa.Focus();
                 }
                 else
                 {
+                    MessageBox.Show("Bạn không được để trống trường mã khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtKhachHangID.Focus();
                 }
             }
