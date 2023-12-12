@@ -63,6 +63,36 @@ namespace quanlihosonhansu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addPic {
+            get {
+                object obj = ResourceManager.GetObject("addPic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backPic {
+            get {
+                object obj = ResourceManager.GetObject("backPic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deletePic {
+            get {
+                object obj = ResourceManager.GetObject("deletePic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eraserIcon {
             get {
                 object obj = ResourceManager.GetObject("eraserIcon", resourceCulture);
@@ -76,6 +106,16 @@ namespace quanlihosonhansu.Properties {
         internal static System.Drawing.Bitmap ficalogo {
             get {
                 object obj = ResourceManager.GetObject("ficalogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap importPic {
+            get {
+                object obj = ResourceManager.GetObject("importPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +156,16 @@ namespace quanlihosonhansu.Properties {
         internal static System.Drawing.Bitmap saveIcon {
             get {
                 object obj = ResourceManager.GetObject("saveIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updatePic {
+            get {
+                object obj = ResourceManager.GetObject("updatePic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

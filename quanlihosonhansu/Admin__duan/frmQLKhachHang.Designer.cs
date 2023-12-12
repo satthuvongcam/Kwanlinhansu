@@ -50,9 +50,9 @@
             // 
             // btnNhap
             // 
-            btnNhap.Location = new Point(391, 199);
+            btnNhap.Location = new Point(337, 202);
             btnNhap.Name = "btnNhap";
-            btnNhap.Size = new Size(76, 29);
+            btnNhap.Size = new Size(98, 45);
             btnNhap.TabIndex = 33;
             btnNhap.Text = "Nhập";
             btnNhap.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             dgvKH.BackgroundColor = Color.White;
             dgvKH.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvKH.GridColor = Color.White;
-            dgvKH.Location = new Point(51, 250);
+            dgvKH.Location = new Point(51, 262);
             dgvKH.Name = "dgvKH";
             dgvKH.RowHeadersWidth = 51;
             dgvKH.RowTemplate.Height = 29;
@@ -73,37 +73,46 @@
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(672, 198);
+            btnXoa.Image = Properties.Resources.deletePic;
+            btnXoa.ImageAlign = ContentAlignment.MiddleRight;
+            btnXoa.Location = new Point(654, 202);
             btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(76, 29);
+            btnXoa.Size = new Size(98, 45);
             btnXoa.TabIndex = 31;
             btnXoa.Text = "Xóa";
+            btnXoa.TextAlign = ContentAlignment.MiddleLeft;
             btnXoa.UseVisualStyleBackColor = true;
             btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
-            btnSua.Location = new Point(578, 198);
+            btnSua.Image = Properties.Resources.updatePic;
+            btnSua.ImageAlign = ContentAlignment.MiddleRight;
+            btnSua.Location = new Point(545, 201);
             btnSua.Name = "btnSua";
-            btnSua.Size = new Size(76, 29);
+            btnSua.Size = new Size(98, 45);
             btnSua.TabIndex = 30;
             btnSua.Text = "Sửa";
+            btnSua.TextAlign = ContentAlignment.MiddleLeft;
             btnSua.UseVisualStyleBackColor = true;
             btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
-            btnThem.Location = new Point(484, 198);
+            btnThem.Image = Properties.Resources.addPic;
+            btnThem.ImageAlign = ContentAlignment.MiddleRight;
+            btnThem.Location = new Point(441, 201);
             btnThem.Name = "btnThem";
-            btnThem.Size = new Size(76, 29);
+            btnThem.Size = new Size(98, 45);
             btnThem.TabIndex = 29;
             btnThem.Text = "Thêm";
+            btnThem.TextAlign = ContentAlignment.MiddleLeft;
             btnThem.UseVisualStyleBackColor = true;
             btnThem.Click += btnThem_Click;
             // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(204, 199);
+            txtTimKiem.Location = new Point(152, 210);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(170, 27);
             txtTimKiem.TabIndex = 28;
@@ -111,28 +120,28 @@
             // 
             // txtSDT
             // 
-            txtSDT.Location = new Point(550, 152);
+            txtSDT.Location = new Point(522, 156);
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(199, 27);
             txtSDT.TabIndex = 26;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(550, 101);
+            txtEmail.Location = new Point(522, 103);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(199, 27);
             txtEmail.TabIndex = 25;
             // 
             // txtTenKH
             // 
-            txtTenKH.Location = new Point(204, 152);
+            txtTenKH.Location = new Point(176, 156);
             txtTenKH.Name = "txtTenKH";
             txtTenKH.Size = new Size(199, 27);
             txtTenKH.TabIndex = 24;
             // 
             // txtMaKH
             // 
-            txtMaKH.Location = new Point(204, 101);
+            txtMaKH.Location = new Point(176, 103);
             txtMaKH.Name = "txtMaKH";
             txtMaKH.ReadOnly = true;
             txtMaKH.Size = new Size(199, 27);
@@ -141,7 +150,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(439, 104);
+            label5.Location = new Point(451, 106);
             label5.Name = "label5";
             label5.Size = new Size(46, 20);
             label5.TabIndex = 22;
@@ -150,7 +159,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(439, 155);
+            label4.Location = new Point(451, 159);
             label4.Name = "label4";
             label4.Size = new Size(36, 20);
             label4.TabIndex = 21;
@@ -159,7 +168,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(125, 155);
+            label3.Location = new Point(97, 159);
             label3.Name = "label3";
             label3.Size = new Size(56, 20);
             label3.TabIndex = 20;
@@ -168,7 +177,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(127, 104);
+            label2.Location = new Point(99, 106);
             label2.Name = "label2";
             label2.Size = new Size(54, 20);
             label2.TabIndex = 19;
@@ -186,18 +195,21 @@
             // 
             // btnTroLai
             // 
+            btnTroLai.Image = Properties.Resources.backPic;
+            btnTroLai.ImageAlign = ContentAlignment.MiddleLeft;
             btnTroLai.Location = new Point(16, 12);
             btnTroLai.Name = "btnTroLai";
-            btnTroLai.Size = new Size(94, 29);
+            btnTroLai.Size = new Size(98, 45);
             btnTroLai.TabIndex = 17;
             btnTroLai.Text = "Trở lại ";
+            btnTroLai.TextAlign = ContentAlignment.MiddleRight;
             btnTroLai.UseVisualStyleBackColor = true;
             btnTroLai.Click += btnTroLai_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(125, 202);
+            label6.Location = new Point(73, 213);
             label6.Name = "label6";
             label6.Size = new Size(70, 20);
             label6.TabIndex = 34;
@@ -207,7 +219,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(818, 450);
+            ClientSize = new Size(818, 462);
             Controls.Add(label6);
             Controls.Add(btnNhap);
             Controls.Add(dgvKH);

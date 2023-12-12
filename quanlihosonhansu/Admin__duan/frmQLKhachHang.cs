@@ -92,17 +92,23 @@ namespace quanlihosonhansu
             }
             else
             {
-                MessageBox.Show("Bạn cần điền đầy đủ thông tin khách hàng cần thêm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (txtTenKH.Text == "")
+                if(txtTenKH.Text == "" && txtEmail.Text == "" && txtSDT.Text == "")
                 {
+                    MessageBox.Show("Bạn cần điền đầy đủ tất cả thông tin trước khi thêm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (txtTenKH.Text == "")
+                {
+                    MessageBox.Show("Bạn không được để trống trường tên khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtTenKH.Focus();
                 }
                 else if (txtEmail.Text == "")
                 {
+                    MessageBox.Show("Bạn không được để trống trường email", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtEmail.Focus();
                 }
                 else
                 {
+                    MessageBox.Show("Bạn không được để trống trường số điện thoại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtSDT.Focus();
                 }
             }

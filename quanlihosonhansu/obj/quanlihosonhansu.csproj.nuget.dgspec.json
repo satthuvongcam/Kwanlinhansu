@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj": {}
+    "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj": {}
   },
   "projects": {
-    "D:\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj": {
+    "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
+        "projectUniqueName": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
         "projectName": "quanlihosonhansu",
-        "projectPath": "D:\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
-        "packagesPath": "C:\\Users\\nlinh\\.nuget\\packages\\",
-        "outputPath": "D:\\Kwanlinhansu\\quanlihosonhansu\\obj\\",
+        "projectPath": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\quanlihosonhansu.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\utt\\Tai_lieu\\Mon_hoc\\CNPM\\QLNhanSu\\Kwanlinhansu\\quanlihosonhansu\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nlinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

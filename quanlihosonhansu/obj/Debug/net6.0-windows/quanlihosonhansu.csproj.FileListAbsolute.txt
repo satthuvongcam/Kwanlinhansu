@@ -27,12 +27,10 @@ C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-w
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.dangnhap.resources
 C:\Users\ndchi\source\repos\quanlihosonhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.UserForm.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.AssemblyReference.cache
-D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__duan.duan.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__hosonhansu.hosonhansu.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__phongban.phongban.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.dangky.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Authentication.dangnhap.resources
-D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Form1.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.UserForm.resources
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.csproj.GenerateResource.cache
 D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.GeneratedMSBuildEditorConfig.editorconfig
@@ -135,3 +133,8 @@ D:\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\refint\quanlihosonhans
 D:\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.pdb
 D:\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.genruntimeconfig.cache
 D:\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\ref\quanlihosonhansu.dll
+D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Excel.dll
+D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__chucvu.chucvu.resources
+D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Admin__kiluat_luong_khenthuong.Formplaceholder.resources
+D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.Properties.Resources.resources
+D:\utt\Tai_lieu\Mon_hoc\CNPM\QLNhanSu\Kwanlinhansu\quanlihosonhansu\obj\Debug\net6.0-windows\quanlihosonhansu.User__things.DoiMatKhau.resources
